@@ -37,15 +37,24 @@
         "symfony/test-pack": "*",
         "symfony/web-server-bundle": "4.3.*"
     },
-    "repositories": [
+    "repositories": [        
+	{
+            "type": "git",
+            "url":  "https://github.com/hcslearning/symfony-bundle-slugger"
+        },        
+        {
+	    "type": "vcs",
+            "url":  "/home/zero/Documents/Aprendiendo/ComputerScience/Programacion/PHP/Frameworks/Symfony/Bundles/symfony-bundle-slugger"
+            
+        },
+        {
+            "type": "git",
+            "url":  "https://github.com/hcslearning/symfony-bundle-catalogo"
+        },
         {
 	    "type": "vcs",
             "url":  "/home/zero/Documents/Aprendiendo/ComputerScience/Programacion/PHP/Frameworks/Symfony/Bundles/symfony-bundle-catalogo"
             
-        },
-	{
-            "type": "git",
-            "url":  "https://github.com/hcslearning/symfony-bundle-slugger"
         }
     ],
     "config": {
